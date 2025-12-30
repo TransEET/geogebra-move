@@ -1,0 +1,104 @@
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button, input[type=button], .load-file-button {
+    height: 2rem;
+    width: 7rem;
+    border: none;
+    color:rgb(231, 244, 255);
+    background-color: rgb(0, 150, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: .3rem;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+.settings-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: .5rem;
+}
+
+#tracking-button {
+    width: 11rem;
+}
+
+#tracking-button:disabled {
+    opacity: .5;
+    pointer-events: none;
+}
+
+#tracking-button.pause-button {
+    background-color: rgb(150, 0, 0);
+}
+
+#save-button {
+    width: 7rem;
+}
+
+#load-button {
+    width: 8rem;
+}
+
+input[type='file'] {
+    display: none;
+}
+
+.load-file-button {
+    display: flex;
+    width: 8rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-container {
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+#video {
+    transform: scaleX(-1); 
+    -webkit-transform: scaleX(-1); 
+}
+
+#loader-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00000010;
+}
+
+.loader {
+    position: absolute;
+    margin: auto auto;
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid #039aa5;
+    border-right: 16px solid #fe7e00;
+    border-bottom: 16px solid #083fdf;
+    border-left: 16px solid #e1108f;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+}
+  
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
