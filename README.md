@@ -6,7 +6,7 @@ TransEET Website: https://transeet.eu
 
 ## Embodied mathematics
 
-GeoGebra Plus adds body landmark (pose) recognition to the GeoGebra interface, allowing users to interact with the mathematical objects on the GeoGebra canvas in an embodied way.
+GeoGebra Move adds body landmark (pose) recognition to the GeoGebra interface, allowing users to interact with the mathematical objects on the GeoGebra canvas in an embodied way.
 
 ## Usage
 
