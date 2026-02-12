@@ -1,4 +1,4 @@
-# GeoGebra Plus
+# GeoGebra Move
 
 This prototype was developed within the TransEET project and was funded by the HORIZON-WIDERA program of the European Research Executive Agency (REA): TransEET (Transforming Education with Emerging Technologies) (project no: 101078875). The European Union’s support for the production of this project does not constitute an endorsement of the contents, which reflect the views only of the authors.
 
